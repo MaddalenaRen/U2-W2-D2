@@ -6,6 +6,6 @@ hot.forEach((card, i) => {
     label.innerText = 'Hot'
     label.classList.add('bg-danger', 'text-light')
     label.classList.add('position-absolute')
-    allTheBears[i].classList.add('position-relative')
-    allTheBears[i].appendChild(label)
+    hot[i].classList.add('position-relative')
+    hot[i].appendChild(label)
 })
